@@ -40,10 +40,16 @@
                         <tbody>
                             <tr v-for="categoria in arrayCategoria" :key="categoria.id">
                                 <td>
-                                    <button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#modalNuevo">
+                                    <button type="button"
+                                            class="btn btn-warning btn-sm"
+                                            data-toggle="modal"
+                                            data-target="#modalNuevo">
                                         <i class="icon-pencil"></i>
                                     </button> &nbsp;
-                                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modalEliminar">
+                                    <button type="button"
+                                            class="btn btn-danger btn-sm"
+                                            data-toggle="modal"
+                                            data-target="#modalEliminar">
                                         <i class="icon-loop"></i>
                                     </button>
                                 </td>
